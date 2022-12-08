@@ -19,13 +19,13 @@ function BackgroundCircles() {
       className="relative flex justify-center items-center"
     >
       <div
-        className="absolute border-2 border-[#333333] rounded-full h-[200px] w-[200px] mt-52
+        className="absolute border-2 border-[#333333] max-sm:w-[120px] max-sm:h-[120px] rounded-full h-[200px] w-[200px] mt-52
         animate-ping"
       />
-      <div className="rounded-full border border-[#333333] h-[300px] w-[300px] absolute mt-52" />
-      <div className="rounded-full border border-[#333333] h-[500px] w-[500px] absolute mt-52" />
+      <div className="rounded-full border border-[#333333] max-sm:w-[220px] max-sm:h-[220px] h-[300px] w-[300px] absolute mt-52" />
+      <div className="rounded-full border border-[#333333] max-sm:w-[320px] max-sm:h-[320px] h-[500px] w-[500px] absolute mt-52" />
       <div
-        className="rounded-full border border-[#F7ABBA] opacity-20 h-[650px] w-[650px]
+        className="rounded-full border border-[#F7ABBA] opacity-20 max-sm:w-[500px] max-sm:h-[500px] h-[650px] w-[650px]
         absolute mt-52 animate-pulse"
       />
       <div />

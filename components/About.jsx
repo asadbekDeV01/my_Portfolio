@@ -28,17 +28,17 @@ export default function About() {
         viewport={{
           once: true,
         }}
-        src="/my_image2.JPG"
+        src="/aboutimage.jpg"
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
     md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
       />
-      <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-4xl font-semibold">
-          Here is a
-          <span className="underline decoration-[#f7ABBA]/50">little</span>
+      <div className="space-y-10 px-0 md:px-10 text-center">
+        <h4 className="text-4xl font-semibold ">
+          Here is a  
+          <span className="underline decoration-[#f7ABBA]/50 px-2">little</span>
           background
         </h4>
-        <p className="text-base">
+        <p className="text-base text-center">
           I m Asadbek I have been coding for 1 year. You can see me as a Front
           End Developer. I love coding and I hope to be the best programmer. I
           thank my parents who believe in me. I also thank my teacher who taught

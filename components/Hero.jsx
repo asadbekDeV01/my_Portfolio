@@ -17,11 +17,11 @@ export default function Hero() {
     delaySpeed: 2000,
   });
   return (
-    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+    <div className="h-screen flex flex-col space-y-8  items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
      <Image
-        className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="/my_image.png"
+        className="relative rounded-full max-sm:h-26 max-sm:w-26 h-32 w-32 mx-auto object-cover"
+        src="/myimage.jpg"
         alt="my"
         width={100}
         height={100}
@@ -31,21 +31,21 @@ export default function Hero() {
           {" "}
           {""}Asadbek
         </h2>
-        <h1 className="text-5xl lg:text-6xl font-semibolt px-10 sm:px-5 sm:text-xl">
+        <h1 className="text-5xl max-sm:text-2xl lg:text-6xl font-semibolt px-10 sm:px-5 sm:text-xl">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#F7ABBA" />
         </h1>
-        <div className="pt-6 ">
-          <Link className="heroButton border" href="#about">
+        <div className="pt-6">
+          <Link className="heroButton border max-sm:px-2 max-sm:py-1" href="#about">
             About
           </Link>
-          <Link className="heroButton border" href="#experience">
+          <Link className="heroButton border max-sm:px-2 max-sm:py-1" href="#experience">
             Experience
           </Link>
-          <Link className="heroButton border" href="#skills">
+          <Link className="heroButton border max-sm:px-2 max-sm:py-1" href="#skills">
             Skills
           </Link>
-          <Link className="heroButton border" href="#projects">
+          <Link className="heroButton border max-sm:px-2 max-sm:py-1" href="#projects">
             Projects
           </Link>
         </div>

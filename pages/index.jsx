@@ -50,7 +50,7 @@ export default function Home() {
             width={200}
             height={200}
               className="h-12 w-12 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
-              src="/my_image.png"
+              src="/myimage.jpg"
               alt="weadadada"
             />
           </Link>
