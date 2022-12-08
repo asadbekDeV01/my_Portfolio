@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 import About from "../components/About";
 import ContactMe from "../components/ContactMe";
@@ -45,12 +46,15 @@ export default function Home() {
       <footer className="sticky bottom-5 w-full cursor-pointer">
         <div className="flex items-center justify-center">
           <Link href="#hero">
-            <img
+            <Image
+            width={200}
+            height={200}
               className="h-12 w-12 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
               src="/my_image.png"
               alt="weadadada"
             />
           </Link>
+         
         </div>
       </footer>
     </div>

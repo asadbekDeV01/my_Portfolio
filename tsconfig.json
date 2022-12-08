@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Project.jsx", "components/ExperienseCard.js", "components/WorkExperiense.js", "components/Skills.js", "components/Skill.js", "components/ContactMe.js", "components/About.jsx", "components/BackgroundCircles.jsx", "components/Hero.jsx", "components/Header.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Project.jsx", "components/ExperienseCard.js", "components/WorkExperiense.js", "components/Skills.js", "components/Skill.js", "components/ContactMe.js", "components/About.jsx", "components/BackgroundCircles.jsx", "components/Hero.jsx", "components/Header.jsx", "pages/index.jsx"],
   "exclude": ["node_modules"]
 }

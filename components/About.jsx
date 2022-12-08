@@ -1,14 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-
 export default function About() {
   return (
     <motion.div
-    initial={{opacity:0}}
-    whileInView={{opacity:1}}
-    transition={{duration:1.5}}
-
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
       className="h-screen flex relative flex-col text-center md:text-left
     md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
@@ -36,16 +34,16 @@ export default function About() {
       />
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semibold">
-          Here is a  {""}
-          <span className="underline decoration-[#f7ABBA]/50">little</span>{" "}
+          Here is a
+          <span className="underline decoration-[#f7ABBA]/50">little</span>
           background
         </h4>
         <p className="text-base">
-          I'm Asadbek  I have been coding for 1 year. You can see me as a
-          Front End Developer. I love coding and I hope to be the best
-          programmer. I thank my parents who believe in me. I also thank my
-          teacher who taught me programming. I hope to work in a good company in
-          the future. I was born on December 22, 2006. I am currently 16 years old.
+          I m Asadbek I have been coding for 1 year. You can see me as a Front
+          End Developer. I love coding and I hope to be the best programmer. I
+          thank my parents who believe in me. I also thank my teacher who taught
+          me programming. I hope to work in a good company in the future. I was
+          born on December 22, 2006. I am currently 16 years old.
         </p>
       </div>
     </motion.div>
