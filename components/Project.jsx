@@ -43,7 +43,7 @@ function Project() {
                 </span>{" "}
                 UPS Clone
               </h4>
-              <p className="text-lg text-center md:text-left">
+              <p className="text-lg text-center md:text-left max-sm:text-sm">
                 Netflix 2.0 app that has a Log In and Log Out Authentication
                 with Google.It has a beatiful Home Screen with all the movies
                 looking just like Netflix.There is also a subscribtion.We also

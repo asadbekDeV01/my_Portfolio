@@ -43,7 +43,7 @@ export default function Home() {
         <ContactMe />
       </section>
 
-      <footer className="sticky bottom-5 w-full cursor-pointer">
+      <footer className="sticky bottom-5 max-sm:bottom-8 w-full cursor-pointer">
         <div className="flex items-center justify-center">
           <Link href="#hero">
             <Image
