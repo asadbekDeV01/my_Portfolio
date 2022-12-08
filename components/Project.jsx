@@ -1,8 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-type Props = {};
-function Project({}: Props) {
+function Project() {
   const projects = [1, 2, 3, 4, 5];
   return (
     <motion.div
