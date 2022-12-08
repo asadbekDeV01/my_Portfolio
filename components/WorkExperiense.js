@@ -13,7 +13,7 @@ const WorkExperiense = (props) => {
       className="h-screen mt-20 flex relative overflow-hidden flex-col text-left md:flex-row
     max-w-full px-10 justify-evenly mx-auto items-center"
     >
-      <h3 className="absolute cursor-pointer top-2  uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute cursor-pointer top-2 max-sm:top-14 uppercase tracking-[20px] text-gray-500 text-2xl">
         Experiense
       </h3>
 
