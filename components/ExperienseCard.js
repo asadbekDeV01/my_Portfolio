@@ -7,7 +7,7 @@ export default function ExperienseCard({ src }) {
     <div
       className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 
     w-[500px] md:w-[600px] xl:w-[980px] snap-center bg-[#292929] p-10
-    max-sm:space-y-2 max-sm:p-4
+    max-sm:space-y-1 max-sm:p-4
     hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200
     max-sm:w-[300px] max-sm:h-auto"
     >
@@ -52,7 +52,7 @@ export default function ExperienseCard({ src }) {
         <p className="uppercase py-5 text-gray-300">
           Started work... -Ended...
         </p>
-        <ul className="space-y-4 ml-5 text-lg">
+        <ul className="space-y-4 ml-5 text-lg max-sm:space-y-1">
           <li>Summary Point</li>
           <li>Summary Point</li>
           <li>Summary Point</li>

@@ -12,8 +12,8 @@ import WorkExperiense from "../components/WorkExperiense";
 export default function Home() {
   return (
     <div
-      className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory
-     overflow-y-scroll overflow-x-hidden scrollbar scrollbar-track-gray-400/20 z-0
+      className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory max-sm:scrollbar-none
+     overflow-y-scroll overflow-x-hidden scrollbar scrollbar-track-gray-400/20 z-0 scrollbar-corner-blue-300
      scrollbar-thumb-[#F7AB0A]/80"
     >
       <Head>
@@ -43,13 +43,13 @@ export default function Home() {
         <ContactMe />
       </section>
 
-      <footer className="sticky bottom-5 max-sm:bottom-8 w-full cursor-pointer">
+      <footer className="sticky bottom-5 max-sm:bottom-14 w-full cursor-pointer">
         <div className="flex items-center justify-center">
           <Link href="#hero">
             <Image
             width={200}
             height={200}
-              className="h-12 w-12 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
+              className="h-12 w-12 rounded-full filter grayscale hover:grayscale-0 cursor-pointer "
               src="/myimage.jpg"
               alt="weadadada"
             />

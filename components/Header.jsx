@@ -26,19 +26,23 @@ export default function Header() {
       >
         {/* Social Icons */}
         <SocialIcon
-          url="https://www.twitter.com"
+          url="https://github.com/asadbekDeV01"
           fgColor="gray"
+          network="github"
           bgColor="transparent"
+          className="hover:scale-110 hover:translate-y-2 transition-all "
         />
         <SocialIcon
-          url="https://www.youtube.com"
+          url="https://t.me/o1_Asadbekk"
           fgColor="gray"
           bgColor="transparent"
+          className="hover:scale-110 hover:translate-y-2 transition-all"
         />
         <SocialIcon
-          url="https://www.facebook.com"
+          url="https://www.instagram.com/asadbek_176/"
           fgColor="gray"
           bgColor="transparent"
+          className="hover:scale-110 hover:translate-y-2 transition-all"
         />
       </motion.div>
 
